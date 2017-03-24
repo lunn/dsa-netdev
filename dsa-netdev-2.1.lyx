@@ -439,7 +439,7 @@ Qualcomm QCA8K
 \end_layout
 
 \begin_layout Itemize
-Mediatek MT7530 (reviewed)
+Mediatek MT7530 (under review)
 \end_layout
 
 \begin_layout Itemize
@@ -513,14 +513,6 @@ First commit, support for some Marvell SOHO switches
 \end_layout
 
 \begin_layout Standard
-2009-2013
-\end_layout
-
-\begin_layout Itemize
-Standard maintenance churn due to changing APIs
-\end_layout
-
-\begin_layout Standard
 2014
 \end_layout
 
@@ -552,11 +544,8 @@ New device tree binding, Switches as Linux devices, SPI, MMIO, Broadcom
 \end_layout
 
 \begin_layout Itemize
-MV88E6390, Second generation Starfighter 2 (BCM7278)
-\end_layout
-
-\begin_layout Itemize
-TC offloads, port mirroring
+MV88E6390, Second generation Starfighter 2 (BCM7278), TC offloads, port
+ mirroring
 \end_layout
 
 \end_deeper
@@ -782,7 +771,7 @@ RX: master interface netif_receive_skb() -> tag parser, slave interface
 status open
 
 \begin_layout Plain Layout
-Network stack flow
+Ethernet frame processing
 \end_layout
 
 \end_inset
@@ -792,7 +781,7 @@ Network stack flow
 
 \begin_layout Frame
 \begin_inset Graphics
-	filename dsa_explained.svg
+	filename DSA-frame-processing.svg
 	scale 35
 
 \end_inset
@@ -812,7 +801,7 @@ Network stack flow
 status open
 
 \begin_layout Plain Layout
-Ethernet frame processing
+Network stack flow
 \end_layout
 
 \end_inset
@@ -822,7 +811,7 @@ Ethernet frame processing
 
 \begin_layout Frame
 \begin_inset Graphics
-	filename DSA-frame-processing.svg
+	filename dsa_explained.svg
 	scale 35
 
 \end_inset
@@ -1044,6 +1033,66 @@ More Vendor supported development?
 \end_deeper
 \begin_layout Frame
 Metering, broadcast storm suppression, QoS (priorities, maps) offloads again
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Questions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+fontsize{40}{50}
+\backslash
+selectfont Questions???}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
 \end_layout
 
 \end_body
