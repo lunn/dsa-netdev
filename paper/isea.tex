@@ -488,12 +488,14 @@ control plane level.
 In Summary, switchdev is an abstraction the network stack uses to
 offload tasks down to the underlying hardware.
 
-\subsection{DSA vs. SWITCHDEV in the Control Plane}
+\subsection{DSA vs. switchdev in the Control Plane}
 
-DSA is also a stateless framework within the kernel and lives under
-\verb|net/dsa|. DSA provides an abstract model of a switch. Each
-switch has a \verb|dsa_switch| structure to represent it. The
-\verb|dsa_switch| structure contains a list of operations,
+The DSA core framework lives under \verb|net/dsa|, with the device
+drivers in \verb|driver/net/dsa|. Unlike switchdev, DSA maintains a
+little state. However, it aims to keep as much state as possible
+within the switch, not the driver. DSA provides an abstract model of a
+switch. Each switch has a \verb|dsa_switch| structure to represent
+it. The \verb|dsa_switch| structure contains a list of operations,
 \verb|dsa_switch_ops| which can be performed on the switch. In order
 to support the D in DSA, a collection of switches in a tree are
 represented by a \verb|dsa_swith_tree|. And going the other way in the
