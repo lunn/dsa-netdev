@@ -301,12 +301,11 @@ abstractions and infrastructure where possible.
 
 Despite its long history in the kernel, DSA is not the only way to
 manage Ethernet switches in WiFi access points and STBs. A number of
-existing implenentations have been deployed in a wide range of
-products.
+other solutions have been deployed in a wide range of products.
 
 \subsection{swconfig}
 
-OpenWrt/LEDE has an alternative solution, known as swconfig \cite{swconfig}.
+OpenWrt/LEDE has an alternative solution, known as swconfig.
 
 DSA makes used of additional tagging heads in order to direct frames
 in/out of specific ports of the switch. swconfig instead uses VLAN
@@ -315,7 +314,7 @@ range of switches, since most switches support VLANs, however fewer
 switches support tagging headers. At the time swconfig was developed,
 DSA was incorrectly considered to be a Marvell only solution and
 limited to a MDIO control plane. swconfig does not have such
-restrictions. Note that since then, it has also been identifed that
+restrictions. Note that since then, it has also been identified that
 DSA could utilize VLAN tags as the most basic form of traffic
 segregation in case a switch does not support additional tagging.
 
@@ -336,9 +335,9 @@ OpenWrt/LEDE thanks to UCI (Universal Configuration Interface). This
 abstraction would take a standard syntax and transform it into
 appropriate swconfig calls towards the specific switch driver.
 
-swconfig \cite{swconfig} was proposed as a solution for mainline in 2013. The
-discussion around it and its rejection was one of the starting points
-to the development of the switchdev framework.
+swconfig was proposed \cite{swconfig} as a solution for mainline in
+2013. The discussion around it and its rejection was one of the
+starting points to the development of the switchdev framework.
 
 \subsection{Other Approaches}
 
@@ -455,7 +454,7 @@ The transmit path is similar. The slaves transmit function invokes the
 tagger transmit function. It inserts the switch tag, and then calls
 the master interfaces transmit function via \verb|dev_queue_xmit()|.
 
-This way of popping or pusing the switch tag is completely standard
+This way of popping or pushing the switch tag is completely standard
 and uses Linux's way of deal with a stack of devices on top of each
 other.
 
@@ -562,6 +561,7 @@ It is hoped the following features will appear during 2017.
 \item Better support for Fiber interfaces. SFP modules are being seen
   on consumer devices, and industrial routes often have SFP modules.
 \item Improved automated testing using open source software (Ostinato)
+  \cite{ostinato}
 \end{itemize}
 
 There are also some more long term goals.
@@ -587,32 +587,38 @@ DSA is now a mature and working subsystem which has received support
 from a fair amount of contributors actively using it in existing
 products. Although there is still a long way to go in terms of feature
 completeness regarding what existing Ethernet switches can do, the
-fundamental paradigm that a switch port should be an Linux network
-device has been proven successful.
+fundamental paradigm that a switch port should be seen as a Linux
+network device has been proven successful.
 
-DSA benefits from working on a product space that is largely mature today
-and receives little radical changes that would require a complete re-design.
-The latest major change was in the device driver model aspect and has since
-opened the door to supporting many more devices.Having to support suc
-devices allows developpers to focus on bringing additional features into
-what Linux can already, and therefore pushing for better integration of
-offloads.
+DSA benefits from working in a product space that is today largely
+mature and receives little radical change that would require a
+complete re-design.  The last major change was in the device driver
+model aspect and that has since opened the door for supporting many
+more devices. Having the basics in place, the model allows developers
+to focus on bringing additional features into DSA, which the Linux
+network stack can already do, and therefore pushing for better
+integration of hardware offloads with the stack.
 
-Ultimately, the goals of getting a device supported in Linux is to get
-finer and better control over what existing Wi-Fi access points/routers
-and other Linux based network products can do. Better control allows
-building reliable, scalable and sustainable networks with equally
-scalable open source solutions, benefiting every one.
+Ultimately, the goals of getting a device supported in Linux is to
+achieve finer and better control over existing Wi-Fi access
+points/routers and other Linux based network products. Better control
+allows building reliable, scalable and sustainable networks with
+equally scalable open source solutions, benefiting everyone.
 
 \begin{thebibliography}{2}
-\bibitem{swconfig} 
-net: phy: add Generic Netlink switch configuration API
+\bibitem{swconfig}
+net: phy: add Generic Netlink switch configuration API\\
 \texttt{https://www.spinics.net/lists/netdev/msg254794.html}
- 
-\bibitem{mlxsw} 
-Mellanox Technologies Switch ASICs support
+
+\bibitem{mlxsw}
+Mellanox Technologies Switch ASICs support\\
 \texttt{https://git.kernel.org/pub/scm/linux/kernel/git/\\
-torvalds/linux.git/tree/drivers/net/ethernet/mellanox/mlxsw}
-\end{thebibliography} 
+  torvalds/linux.git/tree/drivers/net/ethernet/mellanox/mlxsw}
+
+\bibitem{ostinato}
+  Ostinato Network Traffic Generator\\
+  \texttt{http://ostinato.org/}
+
+\end{thebibliography}
 
 \end{document}
