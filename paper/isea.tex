@@ -491,7 +491,7 @@ offload tasks down to the underlying hardware.
 
 \subsection{DSA vs. SWITCHDEV in the Control Plane}
 
-DSA is also a stateless framework within the kernel and lives under
+DSA is a stateful framework within the kernel and lives under
 \verb|net/dsa|. DSA provides an abstract model of a switch. Each
 switch has a \verb|dsa_switch| structure to represent it. The
 \verb|dsa_switch| structure contains a list of operations,
