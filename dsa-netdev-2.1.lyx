@@ -105,7 +105,7 @@ In principle, this file can be redistributed and/or modified under the terms
 \end_layout
 
 \begin_layout Title
-Distributed Switch Archieecture
+Distributed Switch Architecture
 \begin_inset Argument 1
 status open
 
@@ -344,7 +344,7 @@ Users of DSA
 status open
 
 \begin_layout Plain Layout
-WiFi Access Point, Set Top Boxes 
+Wi-Fi Access Point, Set Top Boxes
 \end_layout
 
 \end_inset
@@ -360,7 +360,7 @@ WiFi Access Point, Set Top Boxes
 
 \end_inset
 
-[Add B53 STP/WiFI image?]
+[Add B53 STP/Wi-Fi image?]
 \begin_inset Separator plain
 \end_inset
 
@@ -427,7 +427,7 @@ Supported Switches
 
 \begin_deeper
 \begin_layout Itemize
-Marvell MV88E6xxx
+Marvell 88E6xxx
 \end_layout
 
 \begin_layout Itemize
@@ -517,8 +517,8 @@ First commit, support for some Marvell SOHO switches
 \end_layout
 
 \begin_layout Itemize
-Broadcom SF2, EEPROM, Temperature sensor, EEE, WoL, better libphy integration,
- MV88E6352
+Broadcom SF2, EEPROM, Temperature sensor, EEE, WoL, better PHYLIB integration,
+ 88E6352
 \end_layout
 
 \begin_layout Standard
@@ -536,7 +536,7 @@ Device tree, Hardware bridging, VLANs, Fixup module unload/load, Switch
 
 \begin_layout Itemize
 New device tree binding, Switches as Linux devices, SPI, MMIO, Broadcom
- B53, Qualcomm QCA8K, MV88E6240
+ B53, Qualcomm QCA8K, 88E6240
 \end_layout
 
 \begin_layout Standard
@@ -544,8 +544,7 @@ New device tree binding, Switches as Linux devices, SPI, MMIO, Broadcom
 \end_layout
 
 \begin_layout Itemize
-MV88E6390, Second generation Starfighter 2 (BCM7278), TC offloads, port
- mirroring
+88E6390, Second generation Starfighter 2 (BCM7278), TC offloads, port mirroring
 \end_layout
 
 \end_deeper
@@ -678,7 +677,7 @@ Switch ports are Linux network interfaces
 \end_layout
 
 \begin_layout Itemize
-Standard Linux tools used to configure interfaces, ip(8)
+Standard Linux tools used to configure interfaces, ip(8), ifconfig(8)
 \end_layout
 
 \begin_layout Itemize
@@ -953,7 +952,7 @@ Multiple CPU ports
 \end_layout
 
 \begin_layout Itemize
-Often seen in WiFi devices to double SoC <–> Switch Bandwidth
+Often seen in Wi-Fi devices to double SoC <-> Switch Bandwidth
 \end_layout
 
 \begin_layout Itemize
