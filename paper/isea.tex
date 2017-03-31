@@ -15,7 +15,7 @@
 % The file isea.sty is the style file for ISEA 2015 proceedings.
 %
 \title{Distributed Switch Architecture,\\ A.K.A. DSA}
-\author{1\textsuperscript{st} Andrew Lunn, 2\textsuperscript{nd} Vivien Didelot Name,  3\textsuperscript{th} Florian Fainelli\\
+\author{1\textsuperscript{st} Andrew Lunn, 2\textsuperscript{nd} Vivien Didelot,  3\textsuperscript{th} Florian Fainelli\\
   \\
   \textsuperscript{1}andrew@lunn.ch,
   \textsuperscript{2}vivien.didelot@savoirfairelinux.com,
@@ -48,7 +48,7 @@ switches, switchdev.
 
 Distributed Switch Architecture is a Marvell SOHO switch
 term. However, as is often the case with the Linux Kernel, the code to
-support it has been generalised, and now supports a number of
+support it has been generalized, and now supports a number of
 different vendors Ethernet switches.
 
 The basic hardware configuration for DSA is shown in Figure
@@ -143,7 +143,7 @@ Overall, this forms the control plane.
 
 DSA is however not limited to a single switch. Figure \ref{d-in-dsa}
 shows an architecture of multiple switches connected together. This is
-the D in DSA, a distributed switch. Currently, Linux only supports
+the D in DSA, a distributed switch fabric. Currently, Linux only supports
 Marvell switches in this configuration, however the concept is
 generic, so other switch vendors featuring cascaded switches should be
 supportable.
@@ -160,8 +160,8 @@ to form the data plane between the CPU and the switches. This port is
 referred to as the 'cpu' port. And there is a management plane via
 MDIO, or SPI, I2C, MMIO. However, the data plane is extended to the
 cascaded switches via the 'dsa' ports. These ports are used to connect
-switches together, so that frames can be passed between switch, or
-forward to the CPU via its Ethernet controller. The management plane
+switches together, so that frames can be passed between switches, or
+forwarded to the CPU via its Ethernet controller. The management plane
 is extended, in that each switch is connected to the management plane.
 Note that 'dsa' ports are not visible to the user as normal network
 devices.
@@ -181,11 +181,11 @@ frames to/from the CPU acting as a management interface.
 
 \section{User of DSA}
 
-Users of DSA fall into two main categories
+Users of DSA fall into two main categories.
 
-\subsection{WiFi Access Points/routers and Set Top Boxes}
+\subsection{Wi-Fi Access Points/Routers and Set-Top Boxes}
 
-Probably the most obvious use of DSA is in set top boxes, and WiFi
+Probably the most obvious use of DSA is in set-top boxes, and Wi-Fi
 access points/routers. These typically have 5 Ethernet ports on the
 back, often labeled WAN and LAN 1-4. Figure \ref{wrn854t} is an
 annotated image of the Netgear WNR854T, which contains a Marvell 8
@@ -196,14 +196,14 @@ connector.
 \begin{figure}[ht]
   \centering
   \includegraphics[width=\columnwidth]{wnr854t_board_annotated}
-  \caption{Annotated WRN854T WiFi Access Point, image from OpenWrt}
+  \caption{Annotated WRN854T Wi-Fi Access Point, image from OpenWrt}
   \label{wrn854t}
 \end{figure}
 
 \begin{figure}[ht]
   \centering
   \includegraphics[width=\columnwidth]{20170329_174239}
-  \caption{Broadcom BCM97445VMS Board with an BCM53125 Switch at the top left}
+  \caption{Broadcom BCM97445VMS Board with an BCM53125 Switch at the top-left}
   \label{BCM97445VMS}
 \end{figure}
 
@@ -250,7 +250,7 @@ the number of lines changed per month, between 2008 and the end of
 
 From 2008 to the middle of 2014, the changes are those typical for
 maintenance churn, caused by changing internal kernel APIs. No new
-features or device were added during this time.
+features or devices were added during this time.
 
 From the end of 2014, development recommenced, as part of the Linux
 networking push to support hardware offloads and network switches. In
@@ -261,11 +261,11 @@ support access to switch EEPROMs. Some switches contain temperature
 sensors, so infrastructure was added to export these sensors via the
 HWMON subsystem. Modern switches implement Energy Efficient Ethernet,
 a mechanism to save power on idle interfaces. The extending kernel
-support was extended to switch ports. Wake on LAN support was also
+support was extended to switch ports. Wake-on-LAN support was also
 added, following the standard abstractions. As described in the
 introduction, switch ports have Ethernet PHYs. The phylib was better
 integrated into DSA. Lastly, a new Marvell family of switches, the
-MV88E6352 was added in 2014.
+88E6352 was added in 2014.
 
 Development continued in 2015 adding a device tree binding. Up until
 then, only platform data could be used to describe the hardware
@@ -286,10 +286,10 @@ control plane. As a result, a new device tree binding was needed. This
 refactoring opened up a path for the Broadcom B53 driver, which drives
 devices using SPI and MMIO. 2016 also sore the addition of a driver
 for the Qualcom QCA8K switch, and a further Marvell switch family, the
-MV88E6240.
+88E6240.
 
 Development work has continued in 2017, with another Marvell switch
-family, the MV88E6390, the second generation Starfighter 2, and
+family, the 88E6390, the second generation Starfighter 2, and
 initial contributions for the Mediatek MT7623. Additionally, more
 acceleration support is being added with the support for port
 mirroring and some TC offloads.
@@ -300,21 +300,21 @@ abstractions and infrastructure where possible.
 \section{Alternative Approaches}
 
 Despite its long history in the kernel, DSA is not the only way to
-manage Ethernet switches in WiFi access points and STBs. A number of
-existing implenentations have been deployed in a wide range of
+manage Ethernet switches in Wi-Fi access points and STBs. A number of
+existing implementations have been deployed in a wide range of
 products.
 
 \subsection{swconfig}
 
 OpenWrt/LEDE has an alternative solution, known as swconfig \cite{swconfig}.
 
-DSA makes used of additional tagging heads in order to direct frames
+DSA makes use of additional tagging headers in order to direct frames
 in/out of specific ports of the switch. swconfig instead uses VLAN
 tags for traffic segregation. This allows swconfig to support a wider
 range of switches, since most switches support VLANs, however fewer
 switches support tagging headers. At the time swconfig was developed,
 DSA was incorrectly considered to be a Marvell only solution and
-limited to a MDIO control plane. swconfig does not have such
+limited to an MDIO control plane. swconfig does not have such
 restrictions. Note that since then, it has also been identifed that
 DSA could utilize VLAN tags as the most basic form of traffic
 segregation in case a switch does not support additional tagging.
@@ -322,8 +322,8 @@ segregation in case a switch does not support additional tagging.
 The swconfig solution does not make use of the Linux network interface
 abstraction. The ports of the switch are not represented as network
 interfaces. This goes against the communities decision that switch
-ports should be seen as standard linux interfaces. However, it can be
-argued for the OpenWrt/LEDE use cases, this not so important. WiFi
+ports should be seen as standard Linux interfaces. However, it can be
+argued for the OpenWrt/LEDE use cases, this not so important. Wi-Fi
 access points typically just want to bridge all the ports. There are
 few use cases for using the ports individually.
 
@@ -339,8 +339,6 @@ appropriate swconfig calls towards the specific switch driver.
 swconfig \cite{swconfig} was proposed as a solution for mainline in 2013. The
 discussion around it and its rejection was one of the starting points
 to the development of the switchdev framework.
-
-\subsection{Other Approaches}
 
 There are a number of other of solutions, none of which should get
 anywhere near mainline.
@@ -365,11 +363,11 @@ this decision can be summarized in a few points:
 \begin{itemize}
 \item Switch ports are modeled as Linux network Interfaces.
 \item Confusing to some, switch ports don't switch traffic by default.
-\item Standard Linux tools are used to configure these interfaces, e.g. ip(8).
+\item Standard Linux tools are used to configure these interfaces, e.g. ip(8) and ifconfig(8).
 \item The Linux bridge abstraction is used for bridging interfaces, e.g. ip(8), bridge(8) and brctrl(8).
 \item Linux team/bonding abstraction used for trunking switch ports.
 \item Ethernet PHYs on switch ports are normal Linux PHYs.
-\item Port statistics follow the normal abstraction of ethtool -S
+\item Port statistics follow the normal abstraction provided by ethtool(8).
 \end{itemize}
 
 As a result, we use the switch hardware to accelerate what Linux can
@@ -422,7 +420,7 @@ to egress port 3 of switch 0.
   \label{wireshark}
 \end{figure}
 
-DSA has a number of tagging protocols to insert/remove the switch
+DSA has a number of protocol taggers to insert/remove the switch
 tags. Currently there are taggers for Marvell DSA and EDSA, Broadcom,
 Qualcom, and the Mediatek tagger is under review.
 
@@ -453,34 +451,34 @@ processing, etc.
 
 The transmit path is similar. The slaves transmit function invokes the
 tagger transmit function. It inserts the switch tag, and then calls
-the master interfaces transmit function via \verb|dev_queue_xmit()|.
+the master interface's transmit function via \verb|dev_queue_xmit()|.
 
-This way of popping or pusing the switch tag is completely standard
-and uses Linux's way of deal with a stack of devices on top of each
+This way of popping or pushing the switch tag is completely standard
+and uses Linux's way of dealing with a stack of devices on top of each
 other.
 
 \section{Control Plane}
 
 The control plane for switches in the DSA framework makes use of
-switchdev to interface to the Linux network stacks control plane.
+switchdev to interface with the Linux network stack's control plane.
 
 \subsection{switchdev}
 
 switchdev is a stateless framework within the kernel stack which lives
 under \verb|net/switchdev|. It provides the needed control knobs
-within the network stacks control plane to push tasks which can be
+within the network stack's control plane to push tasks which can be
 offloaded down to the hardware. It does this by offering a number of
-\verb|switchdev_ops|, which switch like devices can
-implement. Examples of this are to add/remove a VLAN to a port,
-add/remove a forwarding database entry to a port, change the spanning
+\verb|switchdev_ops|, which switch-like devices can
+implement. Examples of this are adding/removing a VLAN to a port,
+adding/removing a forwarding database entry to a port, changing the spanning
 tree protocol state of a port, etc. In order to support the diverse
-ways VLANs, forwarding database entries, etc can be represented in
+ways VLANs, forwarding database entries, etc. can be represented in
 hardware, switchdev provides an abstract model of these objects. It is
 the responsibility of the ops implementer to translate the abstract
 representation into a concrete representation needed by the switch.
 
 switchdev is not a driver model. It does not define what a switch
-is. It just defines operations what switch like devices may
+is. It just defines operations that switch-like devices may
 implement. This makes the API flexible to a wide range of
 hardware. The main user of this API is switches, but it can also be
 used with Ethernet controllers with SRIOV VF functionality, etc.
@@ -491,7 +489,7 @@ control plane level.
 In Summary, switchdev is an abstraction the network stack uses to
 offload tasks down to the underlying hardware.
 
-\subsection{DSA vs SWITCHDEV in the Control Plane}
+\subsection{DSA vs. SWITCHDEV in the Control Plane}
 
 DSA is also a stateless framework within the kernel and lives under
 \verb|net/dsa|. DSA provides an abstract model of a switch. Each
@@ -518,8 +516,9 @@ switch device drivers.
 
 \section{Future Development Work}
 
-DSA is not finished. In fact, there is a lot left to do, when
-comparing the features DSA support to other switchdev devices like the
+DSA is not complete. In fact, there is a lot left to do, when
+comparing the features supported by DSA with the ones supported by switchdev
+devices like the
 Mellanox mlxsw \cite{mlxsw}. The bottleneck is the availability of developers
 to implement these features, not the framework itself.
 
@@ -530,7 +529,7 @@ It is hoped the following features will appear during 2017.
   and might be merged before this paper is even presented!
 \item Add support for Microchip devices. Microchip is working on a
   driver and hope to contribute it soon.
-\item Multiple CPU ports. Some WiFi access points have two ports
+\item Multiple CPU ports. Some Wi-Fi access points have two ports
   connected to CPU Ethernet controllers, in order to increase the
   bandwidth between the CPU and the switch. However, DSA currently is
   limited to a single CPU Ethernet controller. The vendor firmware
@@ -571,7 +570,7 @@ There are also some more long term goals.
 \item TCAM support to offload parts of the firewall.
 \item Qualcom Hardware NAT.
 \item Metering, broadcast storm suppression.
-\item More TC support for QoS priorities and maps and other ofloads.
+\item More TC support for QoS priorities and maps and other offloads.
 \end{itemize}
 
 It would also be good to have more vendor endorsed development. We are
@@ -587,15 +586,15 @@ DSA is now a mature and working subsystem which has received support
 from a fair amount of contributors actively using it in existing
 products. Although there is still a long way to go in terms of feature
 completeness regarding what existing Ethernet switches can do, the
-fundamental paradigm that a switch port should be an Linux network
+fundamental paradigm that a switch port should be a Linux network
 device has been proven successful.
 
 DSA benefits from working on a product space that is largely mature today
 and receives little radical changes that would require a complete re-design.
 The latest major change was in the device driver model aspect and has since
-opened the door to supporting many more devices.Having to support suc
-devices allows developpers to focus on bringing additional features into
-what Linux can already, and therefore pushing for better integration of
+opened the door to supporting many more devices. Having to support such
+devices allows developers to focus on bringing additional features into
+what Linux can already do, and therefore pushing for better integration of
 offloads.
 
 Ultimately, the goals of getting a device supported in Linux is to get
