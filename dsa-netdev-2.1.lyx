@@ -351,7 +351,7 @@ Users of DSA
 status open
 
 \begin_layout Plain Layout
-WiFi Access Point, Set Top Boxes 
+Wi-Fi Access Point, Set-top Boxes
 \end_layout
 
 \end_inset
@@ -532,7 +532,7 @@ First commit, support for some Marvell SOHO switches
 \end_layout
 
 \begin_layout Itemize
-Broadcom SF2, EEPROM, Temperature sensor, EEE, WoL, better libphy integration,
+Broadcom SF2, EEPROM, Temperature sensor, EEE, WoL, better PHYLIB integration,
  88E6352
 \end_layout
 
@@ -1106,7 +1106,7 @@ Multiple CPU ports
 \end_layout
 
 \begin_layout Itemize
-Often seen in WiFi devices to double SoC <–> Switch Bandwidth
+Often seen in Wi-Fi devices to double SoC <-> Switch Bandwidth
 \end_layout
 
 \begin_layout Itemize
