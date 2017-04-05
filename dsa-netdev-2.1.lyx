@@ -11,6 +11,13 @@
 
 \setbeamercovered{transparent}
 % or whatever (possibly just delete it)
+
+\AtBeginSection[]
+{
+  \begin{frame}<beamer>
+    \tableofcontents[currentsection]
+  \end{frame}
+}
 \end_preamble
 \use_default_options false
 \maintain_unincluded_children false
