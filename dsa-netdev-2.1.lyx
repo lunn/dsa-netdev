@@ -944,6 +944,145 @@ Implements switchdev_ops for supported offloads: bridge, VLAN, FDB, MDB
 \end_layout
 
 \end_deeper
+\begin_layout Subsection
+The D in DSA
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cross-chip configuration
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Graphics
+	filename cross-chip.svg
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cross-chip configuration
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Current behavior:
+\end_layout
+
+\begin_layout Itemize
+Interconnected switch chips create a switch fabric
+\end_layout
+
+\begin_layout Itemize
+DSA drivers manage single chip (struct dsa_switch)
+\end_layout
+
+\begin_layout Itemize
+DSA links configured to pass frames to any port
+\end_layout
+
+\begin_layout Standard
+Problem?
+\end_layout
+
+\begin_layout Itemize
+br0 bridging? Switches can potentially leak cross-chip frames!
+\end_layout
+
+\begin_layout Itemize
+br0 VLAN 42? Switch 1 won't pass traffic!
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Cross-chip configuration
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Solutions?
+\end_layout
+
+\begin_layout Itemize
+Cross-chip bridging (DONE):
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+DSA core notifies drivers about fabric bridge events (crosschip_bridge_{join,lea
+ve} ops)
+\end_layout
+
+\begin_layout Itemize
+mv88e6xxx configure 
+\begin_inset Flex Emphasize
+status open
+
+\begin_layout Plain Layout
+Cross-chip Port Based VLAN Table
+\end_layout
+
+\end_inset
+
+ (PVT, Marvell specific)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Cross-chip VLAN (WIP):
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+DSA core notifies drivers about switchdev port objects (VLAN, FDB, MDB)
+ so that drivers allow traffic to pass
+\end_layout
+
+\end_deeper
+\end_deeper
 \begin_layout Section
 The Future
 \end_layout
