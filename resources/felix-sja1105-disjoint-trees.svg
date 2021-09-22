@@ -1,0 +1,1239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="339.42371mm"
+   height="262.23965mm"
+   viewBox="0 0 339.42371 262.23965"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (ce6663b3b7, 2021-05-25)"
+   sodipodi:docname="felix-sja1105-disjoint-trees.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true"
+     inkscape:snap-text-baseline="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.53165938"
+     inkscape:cx="719.44559"
+     inkscape:cy="514.42711"
+     inkscape:window-width="1848"
+     inkscape:window-height="1016"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1002"
+       x="-0.009931778"
+       y="-0.015156164"
+       width="1.0198636"
+       height="1.0303123">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.99046181"
+         id="feGaussianBlur1004" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1170"
+       x="-0.036191495"
+       y="-0.071246057"
+       width="1.072383"
+       height="1.1424921">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.2952906"
+         id="feGaussianBlur1172" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter6444"
+       x="-0.035029193"
+       y="-0.076225042"
+       width="1.0700584"
+       height="1.1524501">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.77954475"
+         id="feGaussianBlur6446" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(102.01465,-36.071698)">
+    <rect
+       style="opacity:0.8;fill:#374845;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter1002)"
+       id="rect846"
+       width="239.34369"
+       height="156.84103"
+       x="-4.3117428"
+       y="38.448807" />
+    <rect
+       style="opacity:1;fill:#ffffff;stroke-width:0.499999;stroke-opacity:0.996078"
+       id="rect946"
+       width="239.34369"
+       height="156.84103"
+       x="-4.3117428"
+       y="38.448807" />
+    <rect
+       style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter1170)"
+       id="rect1132"
+       width="218.52365"
+       height="111.00541"
+       x="3.8822684"
+       y="84.284431" />
+    <rect
+       style="opacity:1;fill:#ffffff;stroke-width:0.499999;stroke-opacity:0.996078"
+       id="rect1028"
+       width="218.52365"
+       height="111.00541"
+       x="3.8822684"
+       y="84.284431" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="116.41686"
+       y="95.468895"
+       id="text21179"><tspan
+         sodipodi:role="line"
+         style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="116.41686"
+         y="95.468895"
+         id="tspan21177">mscc_felix switch</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="4.1203094"
+       y="50.98373"
+       id="text2360"><tspan
+         sodipodi:role="line"
+         id="tspan2358"
+         style="stroke-width:0.264583"
+         x="4.1203094"
+         y="50.98373">NXP LS1028A SoC</tspan></text>
+    <rect
+       style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter6444)"
+       id="rect3550"
+       width="53.40995"
+       height="24.544525"
+       x="40.037056"
+       y="59.739906" />
+    <rect
+       style="opacity:1;fill:#ffffff;stroke-width:0.116235;stroke-opacity:0.996078"
+       id="rect3632"
+       width="53.409954"
+       height="24.544527"
+       x="40.037056"
+       y="59.739906" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="66.499672"
+       y="67.088959"
+       id="text4846"><tspan
+         sodipodi:role="line"
+         id="tspan4844"
+         style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="66.499672"
+         y="67.088959">eno2</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="66.499672"
+         y="73.262573"
+         id="tspan17677">(fsl_enetc)</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="66.499672"
+         y="79.43618"
+         id="tspan4850">DSA master for felix</tspan></text>
+    <rect
+       style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter6444)"
+       id="rect6448"
+       width="53.40995"
+       height="24.544525"
+       x="40.037056"
+       y="84.284431" />
+    <rect
+       style="opacity:1;fill:#ffffff;stroke-width:0.116235;stroke-opacity:0.996078"
+       id="rect6450"
+       width="53.409954"
+       height="24.544527"
+       x="40.037056"
+       y="84.284431" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="66.815582"
+       y="97.916817"
+       id="text6458"><tspan
+         sodipodi:role="line"
+         style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="66.815582"
+         y="97.916817"
+         id="tspan6456">CPU port (4)</tspan></text>
+    <g
+       id="g15853">
+      <rect
+         style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter6444)"
+         id="rect9294"
+         width="53.40995"
+         height="24.544525"
+         x="3.8822684"
+         y="170.74532" />
+      <rect
+         style="opacity:1;fill:#ffffff;stroke-width:0.116235;stroke-opacity:0.996078"
+         id="rect9296"
+         width="53.409954"
+         height="24.544527"
+         x="3.8822684"
+         y="170.74532" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="30.344883"
+         y="178.1631"
+         id="text9300"><tspan
+           sodipodi:role="line"
+           style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="30.344883"
+           y="178.1631"
+           id="tspan9298">swp0</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="30.344885"
+           y="184.33672"
+           id="tspan10514">DSA master for</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="30.344883"
+           y="190.51033"
+           id="tspan20233">sja1105 #1</tspan></text>
+    </g>
+    <g
+       id="g26231"
+       transform="translate(-15.364792)">
+      <rect
+         style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter6444)"
+         id="rect9310"
+         width="53.40995"
+         height="24.544525"
+         x="129.32285"
+         y="170.74532" />
+      <rect
+         style="opacity:1;fill:#ffffff;stroke-width:0.116235;stroke-opacity:0.996078"
+         id="rect9312"
+         width="53.409954"
+         height="24.544527"
+         x="129.32285"
+         y="170.74532" />
+    </g>
+    <g
+       id="g26235"
+       transform="translate(-20.356277)">
+      <rect
+         style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter6444)"
+         id="rect9318"
+         width="53.40995"
+         height="24.544525"
+         x="189.35223"
+         y="170.74532" />
+      <rect
+         style="opacity:1;fill:#ffffff;stroke-width:0.116235;stroke-opacity:0.996078"
+         id="rect9320"
+         width="53.409954"
+         height="24.544527"
+         x="189.35223"
+         y="170.74532" />
+    </g>
+    <rect
+       style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter6444)"
+       id="rect15668"
+       width="53.40995"
+       height="24.544525"
+       x="139.33116"
+       y="59.739906" />
+    <rect
+       style="opacity:1;fill:#ffffff;stroke-width:0.116235;stroke-opacity:0.996078"
+       id="rect15670"
+       width="53.409954"
+       height="24.544527"
+       x="139.33116"
+       y="59.739906" />
+    <rect
+       style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter6444)"
+       id="rect15680"
+       width="53.40995"
+       height="24.544525"
+       x="139.33116"
+       y="84.284431" />
+    <rect
+       style="opacity:1;fill:#ffffff;stroke-width:0.116235;stroke-opacity:0.996078"
+       id="rect15682"
+       width="53.409954"
+       height="24.544527"
+       x="139.33116"
+       y="84.284431" />
+    <g
+       id="g26227"
+       transform="translate(-10.85864)">
+      <rect
+         style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter6444)"
+         id="rect9302"
+         width="53.40995"
+         height="24.544525"
+         x="69.778801"
+         y="170.74532" />
+      <rect
+         style="opacity:1;fill:#ffffff;stroke-width:0.116235;stroke-opacity:0.996078"
+         id="rect9304"
+         width="53.409954"
+         height="24.544527"
+         x="69.778801"
+         y="170.74532" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="96.241417"
+         y="178.1631"
+         id="text24172"><tspan
+           sodipodi:role="line"
+           style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="96.241417"
+           y="178.1631"
+           id="tspan24166">swp1</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="96.241417"
+           y="184.33672"
+           id="tspan24168">DSA master for</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="96.241417"
+           y="190.51033"
+           id="tspan24170">sja1105 #2</tspan></text>
+    </g>
+    <rect
+       style="opacity:1;fill:#ffffff;stroke-width:0.499999;stroke-opacity:0.996078"
+       id="rect26319"
+       width="218.52365"
+       height="111.00541"
+       x="3.8822684"
+       y="84.284431" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="113.12962"
+       y="138.25096"
+       id="text26323"><tspan
+         sodipodi:role="line"
+         style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="113.12962"
+         y="138.25096"
+         id="tspan26321">mscc_felix switch</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="113.12962"
+         y="144.42458"
+         id="tspan60686">(internal)</tspan></text>
+    <rect
+       style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter6444)"
+       id="rect26325"
+       width="53.40995"
+       height="24.544525"
+       x="40.037056"
+       y="84.284431" />
+    <rect
+       style="opacity:1;fill:#ffffff;stroke-width:0.116235;stroke-opacity:0.996078"
+       id="rect26327"
+       width="53.409954"
+       height="24.544527"
+       x="40.037056"
+       y="84.284431" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="66.815582"
+       y="97.916817"
+       id="text26331"><tspan
+         sodipodi:role="line"
+         style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="66.815582"
+         y="97.916817"
+         id="tspan26329">CPU port (4)</tspan></text>
+    <g
+       id="g26345">
+      <rect
+         style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter6444)"
+         id="rect26333"
+         width="53.40995"
+         height="24.544525"
+         x="3.8822684"
+         y="170.74532" />
+      <rect
+         style="opacity:1;fill:#ffffff;stroke-width:0.116235;stroke-opacity:0.996078"
+         id="rect26335"
+         width="53.409954"
+         height="24.544527"
+         x="3.8822684"
+         y="170.74532" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="30.344883"
+         y="178.1631"
+         id="text26343"><tspan
+           sodipodi:role="line"
+           style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="30.344883"
+           y="178.1631"
+           id="tspan26337">swp0</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="30.344885"
+           y="184.33672"
+           id="tspan26339">DSA master for</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="30.344883"
+           y="190.51033"
+           id="tspan26341">sja1105 #1</tspan></text>
+    </g>
+    <g
+       id="g26351"
+       transform="translate(-15.364792)">
+      <rect
+         style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter6444)"
+         id="rect26347"
+         width="53.40995"
+         height="24.544525"
+         x="129.32285"
+         y="170.74532" />
+      <rect
+         style="opacity:1;fill:#ffffff;stroke-width:0.116235;stroke-opacity:0.996078"
+         id="rect26349"
+         width="53.409954"
+         height="24.544527"
+         x="129.32285"
+         y="170.74532" />
+    </g>
+    <g
+       id="g26357"
+       transform="translate(-20.356277)">
+      <rect
+         style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter6444)"
+         id="rect26353"
+         width="53.40995"
+         height="24.544525"
+         x="189.35223"
+         y="170.74532" />
+      <rect
+         style="opacity:1;fill:#ffffff;stroke-width:0.116235;stroke-opacity:0.996078"
+         id="rect26355"
+         width="53.409954"
+         height="24.544527"
+         x="189.35223"
+         y="170.74532" />
+    </g>
+    <rect
+       style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter6444)"
+       id="rect26359"
+       width="53.40995"
+       height="24.544525"
+       x="139.33116"
+       y="84.284431" />
+    <rect
+       style="opacity:1;fill:#ffffff;stroke-width:0.116235;stroke-opacity:0.996078"
+       id="rect26361"
+       width="53.409954"
+       height="24.544527"
+       x="139.33116"
+       y="84.284431" />
+    <g
+       id="g26375"
+       transform="translate(-10.85864)">
+      <rect
+         style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter6444)"
+         id="rect26363"
+         width="53.40995"
+         height="24.544525"
+         x="69.778801"
+         y="170.74532" />
+      <rect
+         style="opacity:1;fill:#ffffff;stroke-width:0.116235;stroke-opacity:0.996078"
+         id="rect26365"
+         width="53.409954"
+         height="24.544527"
+         x="69.778801"
+         y="170.74532" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="96.241417"
+         y="178.1631"
+         id="text26373"><tspan
+           sodipodi:role="line"
+           style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="96.241417"
+           y="178.1631"
+           id="tspan26367">swp1</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="96.241417"
+           y="184.33672"
+           id="tspan26369">DSA master for</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="96.241417"
+           y="190.51033"
+           id="tspan26371">sja1105 #2</tspan></text>
+    </g>
+    <g
+       id="g37432"
+       transform="translate(-30.490588,-19.261888)">
+      <rect
+         style="opacity:1;fill:#ffffff;stroke-width:0.339903;stroke-opacity:0.996078"
+         id="rect26437"
+         width="148.55408"
+         height="75.462341"
+         x="-66.147667"
+         y="236.73451" />
+      <rect
+         style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter1170)"
+         id="rect26377"
+         width="218.52365"
+         height="111.00541"
+         x="-107.17937"
+         y="209.0025"
+         transform="matrix(0.67980778,0,0,0.67980778,6.7136974,94.652981)" />
+      <rect
+         style="opacity:1;fill:#ffffff;stroke-width:0.339903;stroke-opacity:0.996078"
+         id="rect26379"
+         width="148.55408"
+         height="75.462341"
+         x="-66.147667"
+         y="236.73451" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:3.3575px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.179866"
+         x="10.354222"
+         y="244.3378"
+         id="text26383"><tspan
+           sodipodi:role="line"
+           style="font-size:3.3575px;text-align:center;text-anchor:middle;stroke-width:0.179866"
+           x="10.354222"
+           y="244.3378"
+           id="tspan26381">mscc_felix switch</tspan></text>
+      <rect
+         style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter6444)"
+         id="rect26385"
+         width="53.40995"
+         height="24.544525"
+         x="-71.024582"
+         y="209.0025"
+         transform="matrix(0.67980778,0,0,0.67980778,38.258183,94.652981)" />
+      <rect
+         style="opacity:1;fill:#ffffff;stroke-width:0.0790175;stroke-opacity:0.996078"
+         id="rect26387"
+         width="36.308502"
+         height="16.68556"
+         x="-10.024882"
+         y="236.73451" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:3.3575px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.179866"
+         x="8.1793718"
+         y="246.00192"
+         id="text26391"><tspan
+           sodipodi:role="line"
+           style="font-size:3.3575px;text-align:center;text-anchor:middle;stroke-width:0.179866"
+           x="8.1793718"
+           y="246.00192"
+           id="tspan26389">CPU port (4)</tspan></text>
+      <g
+         id="g26405"
+         transform="matrix(0.67980778,0,0,0.67980778,-68.78687,179.43729)">
+        <rect
+           style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter6444)"
+           id="rect26393"
+           width="53.40995"
+           height="24.544525"
+           x="3.8822684"
+           y="170.74532" />
+        <rect
+           style="opacity:1;fill:#ffffff;stroke-width:0.116235;stroke-opacity:0.996078"
+           id="rect26395"
+           width="53.409954"
+           height="24.544527"
+           x="3.8822684"
+           y="170.74532" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="30.344883"
+           y="178.1631"
+           id="text26403"><tspan
+             sodipodi:role="line"
+             style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+             x="30.344883"
+             y="178.1631"
+             id="tspan26397">swp0</tspan><tspan
+             sodipodi:role="line"
+             style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+             x="30.344885"
+             y="184.33672"
+             id="tspan26399">DSA master for</tspan><tspan
+             sodipodi:role="line"
+             style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+             x="30.344883"
+             y="190.51033"
+             id="tspan26401">sja1105 #1</tspan></text>
+      </g>
+      <g
+         id="g26411"
+         transform="matrix(0.67980778,0,0,0.67980778,-79.23197,179.43729)">
+        <rect
+           style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter6444)"
+           id="rect26407"
+           width="53.40995"
+           height="24.544525"
+           x="129.32285"
+           y="170.74532" />
+        <rect
+           style="opacity:1;fill:#ffffff;stroke-width:0.116235;stroke-opacity:0.996078"
+           id="rect26409"
+           width="53.409954"
+           height="24.544527"
+           x="129.32285"
+           y="170.74532" />
+      </g>
+      <g
+         id="g26417"
+         transform="matrix(0.67980778,0,0,0.67980778,-82.62522,179.43729)">
+        <rect
+           style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter6444)"
+           id="rect26413"
+           width="53.40995"
+           height="24.544525"
+           x="189.35223"
+           y="170.74532" />
+        <rect
+           style="opacity:1;fill:#ffffff;stroke-width:0.116235;stroke-opacity:0.996078"
+           id="rect26415"
+           width="53.409954"
+           height="24.544527"
+           x="189.35223"
+           y="170.74532" />
+      </g>
+      <g
+         id="g26435"
+         transform="matrix(0.67980778,0,0,0.67980778,-76.16866,179.43729)">
+        <rect
+           style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter6444)"
+           id="rect26423"
+           width="53.40995"
+           height="24.544525"
+           x="69.778801"
+           y="170.74532" />
+        <rect
+           style="opacity:1;fill:#ffffff;stroke-width:0.116235;stroke-opacity:0.996078"
+           id="rect26425"
+           width="53.409954"
+           height="24.544527"
+           x="69.778801"
+           y="170.74532" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="96.241417"
+           y="178.1631"
+           id="text26433"><tspan
+             sodipodi:role="line"
+             style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+             x="96.241417"
+             y="178.1631"
+             id="tspan26427">swp1</tspan><tspan
+             sodipodi:role="line"
+             style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+             x="96.241417"
+             y="184.33672"
+             id="tspan26429">DSA master for</tspan><tspan
+             sodipodi:role="line"
+             style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+             x="96.241417"
+             y="190.51033"
+             id="tspan26431">sja1105 #2</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:3.3575px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.179866"
+         x="8.1933069"
+         y="275.39194"
+         id="text26441"><tspan
+           sodipodi:role="line"
+           style="font-size:3.3575px;text-align:center;text-anchor:middle;stroke-width:0.179866"
+           x="8.1933069"
+           y="275.39194"
+           id="tspan26439">sja1105 switch #1</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:3.3575px;text-align:center;text-anchor:middle;stroke-width:0.179866"
+           x="8.1933069"
+           y="279.58881"
+           id="tspan64684">(external)</tspan></text>
+      <rect
+         style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter6444)"
+         id="rect26443"
+         width="53.40995"
+         height="24.544525"
+         x="-71.024582"
+         y="209.0025"
+         transform="matrix(0.67980778,0,0,0.67980778,38.258183,94.652981)" />
+      <rect
+         style="opacity:1;fill:#ffffff;stroke-width:0.0790175;stroke-opacity:0.996078"
+         id="rect26445"
+         width="36.308502"
+         height="16.68556"
+         x="-10.024882"
+         y="236.73451" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:3.3575px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.179866"
+         x="8.1793718"
+         y="246.00192"
+         id="text26449"><tspan
+           sodipodi:role="line"
+           style="font-size:3.3575px;text-align:center;text-anchor:middle;stroke-width:0.179866"
+           x="8.1793718"
+           y="246.00192"
+           id="tspan26447">CPU port (4)</tspan></text>
+      <g
+         id="g26463"
+         transform="matrix(0.67980778,0,0,0.67980778,-68.78687,179.43729)">
+        <rect
+           style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter6444)"
+           id="rect26451"
+           width="53.40995"
+           height="24.544525"
+           x="3.8822684"
+           y="170.74532" />
+        <rect
+           style="opacity:1;fill:#ffffff;stroke-width:0.116235;stroke-opacity:0.996078"
+           id="rect26453"
+           width="53.409954"
+           height="24.544527"
+           x="3.8822684"
+           y="170.74532" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="30.61739"
+           y="184.3367"
+           id="text26461"><tspan
+             sodipodi:role="line"
+             style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+             x="30.61739"
+             y="184.3367"
+             id="tspan26459">sw0p0</tspan></text>
+      </g>
+      <g
+         id="g26469"
+         transform="matrix(0.67980778,0,0,0.67980778,-79.23197,179.43729)">
+        <rect
+           style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter6444)"
+           id="rect26465"
+           width="53.40995"
+           height="24.544525"
+           x="129.32285"
+           y="170.74532" />
+        <rect
+           style="opacity:1;fill:#ffffff;stroke-width:0.116235;stroke-opacity:0.996078"
+           id="rect26467"
+           width="53.409954"
+           height="24.544527"
+           x="129.32285"
+           y="170.74532" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:3.3575px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.179866"
+         x="26.900896"
+         y="304.75082"
+         id="text31445"><tspan
+           sodipodi:role="line"
+           style="font-size:3.3575px;text-align:center;text-anchor:middle;stroke-width:0.179866"
+           x="26.900896"
+           y="304.75082"
+           id="tspan31443">sw0p2</tspan></text>
+      <g
+         id="g26475"
+         transform="matrix(0.67980778,0,0,0.67980778,-82.62522,179.43729)">
+        <rect
+           style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter6444)"
+           id="rect26471"
+           width="53.40995"
+           height="24.544525"
+           x="189.35223"
+           y="170.74532" />
+        <rect
+           style="opacity:1;fill:#ffffff;stroke-width:0.116235;stroke-opacity:0.996078"
+           id="rect26473"
+           width="53.409954"
+           height="24.544527"
+           x="189.35223"
+           y="170.74532" />
+      </g>
+      <g
+         id="g26493"
+         transform="matrix(0.67980778,0,0,0.67980778,-76.16866,179.43729)">
+        <rect
+           style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter6444)"
+           id="rect26481"
+           width="53.40995"
+           height="24.544525"
+           x="69.778801"
+           y="170.74532" />
+        <rect
+           style="opacity:1;fill:#ffffff;stroke-width:0.116235;stroke-opacity:0.996078"
+           id="rect26483"
+           width="53.409954"
+           height="24.544527"
+           x="69.778801"
+           y="170.74532" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="96.577827"
+           y="184.3367"
+           id="text26491"><tspan
+             sodipodi:role="line"
+             style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+             x="96.577827"
+             y="184.3367"
+             id="tspan26489">sw0p1</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:3.3575px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.179866"
+         x="64.329208"
+         y="304.75082"
+         id="text34524"><tspan
+           sodipodi:role="line"
+           style="font-size:3.3575px;text-align:center;text-anchor:middle;stroke-width:0.179866"
+           x="64.329208"
+           y="304.75082"
+           id="tspan34522">sw0p3</tspan></text>
+    </g>
+    <g
+       id="g37544"
+       transform="translate(130.44423,-19.261888)">
+      <rect
+         style="opacity:1;fill:#ffffff;stroke-width:0.339903;stroke-opacity:0.996078"
+         id="rect37434"
+         width="148.55408"
+         height="75.462341"
+         x="-66.147667"
+         y="236.73451" />
+      <rect
+         style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter1170)"
+         id="rect37436"
+         width="218.52365"
+         height="111.00541"
+         x="-107.17937"
+         y="209.0025"
+         transform="matrix(0.67980778,0,0,0.67980778,6.7136974,94.652981)" />
+      <rect
+         style="opacity:1;fill:#ffffff;stroke-width:0.339903;stroke-opacity:0.996078"
+         id="rect37438"
+         width="148.55408"
+         height="75.462341"
+         x="-66.147667"
+         y="236.73451" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:3.3575px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.179866"
+         x="10.354222"
+         y="244.3378"
+         id="text37442"><tspan
+           sodipodi:role="line"
+           style="font-size:3.3575px;text-align:center;text-anchor:middle;stroke-width:0.179866"
+           x="10.354222"
+           y="244.3378"
+           id="tspan37440">mscc_felix switch</tspan></text>
+      <rect
+         style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter6444)"
+         id="rect37444"
+         width="53.40995"
+         height="24.544525"
+         x="-71.024582"
+         y="209.0025"
+         transform="matrix(0.67980778,0,0,0.67980778,38.258183,94.652981)" />
+      <rect
+         style="opacity:1;fill:#ffffff;stroke-width:0.0790175;stroke-opacity:0.996078"
+         id="rect37446"
+         width="36.308502"
+         height="16.68556"
+         x="-10.024882"
+         y="236.73451" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:3.3575px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.179866"
+         x="8.1793718"
+         y="246.00192"
+         id="text37450"><tspan
+           sodipodi:role="line"
+           style="font-size:3.3575px;text-align:center;text-anchor:middle;stroke-width:0.179866"
+           x="8.1793718"
+           y="246.00192"
+           id="tspan37448">CPU port (4)</tspan></text>
+      <g
+         id="g37464"
+         transform="matrix(0.67980778,0,0,0.67980778,-68.78687,179.43729)">
+        <rect
+           style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter6444)"
+           id="rect37452"
+           width="53.40995"
+           height="24.544525"
+           x="3.8822684"
+           y="170.74532" />
+        <rect
+           style="opacity:1;fill:#ffffff;stroke-width:0.116235;stroke-opacity:0.996078"
+           id="rect37454"
+           width="53.409954"
+           height="24.544527"
+           x="3.8822684"
+           y="170.74532" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="30.344883"
+           y="178.1631"
+           id="text37462"><tspan
+             sodipodi:role="line"
+             style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+             x="30.344883"
+             y="178.1631"
+             id="tspan37456">swp0</tspan><tspan
+             sodipodi:role="line"
+             style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+             x="30.344885"
+             y="184.33672"
+             id="tspan37458">DSA master for</tspan><tspan
+             sodipodi:role="line"
+             style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+             x="30.344883"
+             y="190.51033"
+             id="tspan37460">sja1105 #1</tspan></text>
+      </g>
+      <g
+         id="g37470"
+         transform="matrix(0.67980778,0,0,0.67980778,-79.23197,179.43729)">
+        <rect
+           style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter6444)"
+           id="rect37466"
+           width="53.40995"
+           height="24.544525"
+           x="129.32285"
+           y="170.74532" />
+        <rect
+           style="opacity:1;fill:#ffffff;stroke-width:0.116235;stroke-opacity:0.996078"
+           id="rect37468"
+           width="53.409954"
+           height="24.544527"
+           x="129.32285"
+           y="170.74532" />
+      </g>
+      <g
+         id="g37476"
+         transform="matrix(0.67980778,0,0,0.67980778,-82.62522,179.43729)">
+        <rect
+           style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter6444)"
+           id="rect37472"
+           width="53.40995"
+           height="24.544525"
+           x="189.35223"
+           y="170.74532" />
+        <rect
+           style="opacity:1;fill:#ffffff;stroke-width:0.116235;stroke-opacity:0.996078"
+           id="rect37474"
+           width="53.409954"
+           height="24.544527"
+           x="189.35223"
+           y="170.74532" />
+      </g>
+      <g
+         id="g37490"
+         transform="matrix(0.67980778,0,0,0.67980778,-76.16866,179.43729)">
+        <rect
+           style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter6444)"
+           id="rect37478"
+           width="53.40995"
+           height="24.544525"
+           x="69.778801"
+           y="170.74532" />
+        <rect
+           style="opacity:1;fill:#ffffff;stroke-width:0.116235;stroke-opacity:0.996078"
+           id="rect37480"
+           width="53.409954"
+           height="24.544527"
+           x="69.778801"
+           y="170.74532" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="96.241417"
+           y="178.1631"
+           id="text37488"><tspan
+             sodipodi:role="line"
+             style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+             x="96.241417"
+             y="178.1631"
+             id="tspan37482">swp1</tspan><tspan
+             sodipodi:role="line"
+             style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+             x="96.241417"
+             y="184.33672"
+             id="tspan37484">DSA master for</tspan><tspan
+             sodipodi:role="line"
+             style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+             x="96.241417"
+             y="190.51033"
+             id="tspan37486">sja1105 #2</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:3.3575px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.179866"
+         x="8.1933069"
+         y="275.39194"
+         id="text37494"><tspan
+           sodipodi:role="line"
+           style="font-size:3.3575px;text-align:center;text-anchor:middle;stroke-width:0.179866"
+           x="8.1933069"
+           y="275.39194"
+           id="tspan37492">sja1105 switch #2</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:3.3575px;text-align:center;text-anchor:middle;stroke-width:0.179866"
+           x="8.1933069"
+           y="279.58881"
+           id="tspan65858">(external)</tspan></text>
+      <rect
+         style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter6444)"
+         id="rect37496"
+         width="53.40995"
+         height="24.544525"
+         x="-71.024582"
+         y="209.0025"
+         transform="matrix(0.67980778,0,0,0.67980778,38.258183,94.652981)" />
+      <rect
+         style="opacity:1;fill:#ffffff;stroke-width:0.0790175;stroke-opacity:0.996078"
+         id="rect37498"
+         width="36.308502"
+         height="16.68556"
+         x="-10.024882"
+         y="236.73451" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:3.3575px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.179866"
+         x="8.1793718"
+         y="246.00192"
+         id="text37502"><tspan
+           sodipodi:role="line"
+           style="font-size:3.3575px;text-align:center;text-anchor:middle;stroke-width:0.179866"
+           x="8.1793718"
+           y="246.00192"
+           id="tspan37500">CPU port (4)</tspan></text>
+      <g
+         id="g37512"
+         transform="matrix(0.67980778,0,0,0.67980778,-68.78687,179.43729)">
+        <rect
+           style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter6444)"
+           id="rect37504"
+           width="53.40995"
+           height="24.544525"
+           x="3.8822684"
+           y="170.74532" />
+        <rect
+           style="opacity:1;fill:#ffffff;stroke-width:0.116235;stroke-opacity:0.996078"
+           id="rect37506"
+           width="53.409954"
+           height="24.544527"
+           x="3.8822684"
+           y="170.74532" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="30.61739"
+           y="184.3367"
+           id="text37510"><tspan
+             sodipodi:role="line"
+             style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+             x="30.61739"
+             y="184.3367"
+             id="tspan37508">sw1p0</tspan></text>
+      </g>
+      <g
+         id="g37518"
+         transform="matrix(0.67980778,0,0,0.67980778,-79.23197,179.43729)">
+        <rect
+           style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter6444)"
+           id="rect37514"
+           width="53.40995"
+           height="24.544525"
+           x="129.32285"
+           y="170.74532" />
+        <rect
+           style="opacity:1;fill:#ffffff;stroke-width:0.116235;stroke-opacity:0.996078"
+           id="rect37516"
+           width="53.409954"
+           height="24.544527"
+           x="129.32285"
+           y="170.74532" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:3.3575px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.179866"
+         x="26.900896"
+         y="304.75082"
+         id="text37522"><tspan
+           sodipodi:role="line"
+           style="font-size:3.3575px;text-align:center;text-anchor:middle;stroke-width:0.179866"
+           x="26.900896"
+           y="304.75082"
+           id="tspan37520">sw1p2</tspan></text>
+      <g
+         id="g37528"
+         transform="matrix(0.67980778,0,0,0.67980778,-82.62522,179.43729)">
+        <rect
+           style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter6444)"
+           id="rect37524"
+           width="53.40995"
+           height="24.544525"
+           x="189.35223"
+           y="170.74532" />
+        <rect
+           style="opacity:1;fill:#ffffff;stroke-width:0.116235;stroke-opacity:0.996078"
+           id="rect37526"
+           width="53.409954"
+           height="24.544527"
+           x="189.35223"
+           y="170.74532" />
+      </g>
+      <g
+         id="g37538"
+         transform="matrix(0.67980778,0,0,0.67980778,-76.16866,179.43729)">
+        <rect
+           style="opacity:0.8;fill:#374845;fill-opacity:1;stroke-width:0.499999;stroke-opacity:0.996078;filter:url(#filter6444)"
+           id="rect37530"
+           width="53.40995"
+           height="24.544525"
+           x="69.778801"
+           y="170.74532" />
+        <rect
+           style="opacity:1;fill:#ffffff;stroke-width:0.116235;stroke-opacity:0.996078"
+           id="rect37532"
+           width="53.409954"
+           height="24.544527"
+           x="69.778801"
+           y="170.74532" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="96.577827"
+           y="184.3367"
+           id="text37536"><tspan
+             sodipodi:role="line"
+             style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+             x="96.577827"
+             y="184.3367"
+             id="tspan37534">sw1p1</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:3.3575px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.179866"
+         x="64.329208"
+         y="304.75082"
+         id="text37542"><tspan
+           sodipodi:role="line"
+           style="font-size:3.3575px;text-align:center;text-anchor:middle;stroke-width:0.179866"
+           x="64.329208"
+           y="304.75082"
+           id="tspan37540">sw1p3</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M -22.361219,217.47262 V 205.73383 H 32.238817 V 195.28984"
+       id="path37579" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 140.22517,217.47262 V 205.73383 H 85.625136 v -10.44399"
+       id="path37661" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-21.302885"
+       y="203.08803"
+       id="text50249"><tspan
+         sodipodi:role="line"
+         id="tspan50247"
+         style="font-size:5.64444px;stroke-width:0.264583"
+         x="-21.302885"
+         y="203.08803">Ethernet link</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="89.46006"
+       y="203.08803"
+       id="text55929"><tspan
+         sodipodi:role="line"
+         id="tspan55927"
+         style="font-size:5.64444px;stroke-width:0.264583"
+         x="89.46006"
+         y="203.08803">Ethernet link</tspan></text>
+    <path
+       style="fill:none;stroke:#d55400;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M -4.3117441,69.205122 H -65.21299 V 217.47262"
+       id="path55964" />
+    <path
+       style="fill:none;stroke:#d45500;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M -65.21299,209.11103 H 85.255563 v 8.36159"
+       id="path55966" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#d45400;fill-opacity:0.98198456;stroke:none;stroke-width:0.264583"
+       x="-61.838615"
+       y="144.61354"
+       id="text59570"><tspan
+         sodipodi:role="line"
+         id="tspan59568"
+         style="font-size:5.64444px;stroke-width:0.264583;fill:#d45400;fill-opacity:0.98198456"
+         x="-61.838615"
+         y="144.61354">SPI bus</tspan></text>
+  </g>
+</svg>
